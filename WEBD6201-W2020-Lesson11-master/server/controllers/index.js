@@ -15,19 +15,11 @@ module.exports.displayAbout = (res) =>
   });
 }
 
-module.exports.displayContact = (res) =>
-{
-  res.render('index',
-  {
-    title: 'Contact'
-  });
-}
-
 module.exports.displayProducts = (res) =>
 {
   res.render('index',
   {
-    title: 'Products'
+    title: 'Projects'
   });
 }
 
@@ -36,6 +28,14 @@ module.exports.displayServices = (res) =>
   res.render('index',
   {
     title: 'Services'
+  });
+}
+
+module.exports.displayContact = (res) =>
+{
+  res.render('index',
+  {
+    title: 'Contact'
   });
 }
 

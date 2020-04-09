@@ -14,11 +14,19 @@
 
 <%- include ./content/about.ejs %>
 
+<% } else if(title == 'Projects') { %>
+
+<%- include ./content/projects.ejs %>
+
+<% } else if(title == 'services') { %>
+
+<%- include ./content/services.ejs %>
+
 <% } else if(title == 'Contact') { %>
 
 <%- include ./content/contact.ejs %>
 
-<% } %>
+
 
 </main> 
 
