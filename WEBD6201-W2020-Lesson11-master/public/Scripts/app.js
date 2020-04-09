@@ -1,3 +1,8 @@
+/*
+Author: Punit Patel
+Date Completed: April 9 2020
+Student ID: 100734638
+*/
 class Contact
 {
     constructor(contactName = "", emailAddress = "", contactNumber = "", contactMessage = "")
