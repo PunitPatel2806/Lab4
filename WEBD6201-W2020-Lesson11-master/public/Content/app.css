@@ -34,7 +34,25 @@
     border-bottom-left-radius: 0;
 }
 
+.carousel-inner{
+    width: 600px;
+    height: 700px;
+    overflow: hidden;
+    text-align: center;
+    margin-left:230px
+}
+.jumbotron{
+    margin-top: -370px;
+}
+#phpimg{
+    margin-top: -130px;
 
+}
+#htmlimg{
+    margin-top: -130px;
+    height: 460px;
+    overflow: hidden;
+}
 
 .login
 {
