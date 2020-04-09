@@ -39,6 +39,10 @@ Student ID: 100734638
     border-bottom-left-radius: 0;
 }
 
+#mobile{
+    height: 500px;
+}
+
 .carousel-inner{
     width: 600px;
     height: 700px;
